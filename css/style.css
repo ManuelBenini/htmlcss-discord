@@ -1,4 +1,7 @@
-/* HEADER */
+/* 
+HEADER 
+*/
+
 header{
   height: 80px;
   background-color: #3161E0;
@@ -25,7 +28,10 @@ nav li a:hover{
 
 
 
-/* JUMBOTRON */
+/* 
+JUMBOTRON 
+*/
+
 .jumbotron{
   height: 370px;
   padding: 100px;
@@ -61,18 +67,24 @@ nav li a:hover{
 
 
 
-/* MAIN */
+/*
+ MAIN
+*/
+
+section{
+  padding: 30px 0 70px 0;
+}
 
 .description{
   width: 287px;
   padding: 55px 63px 0 0;
 }
 
-section div.description h2{
+main section h2{
   font-size: 36px;
 }
 
-section div.description p{
+main section p{
   padding-top: 20px;
 }
 
@@ -80,12 +92,99 @@ section div.description p{
   padding: 55px 0px 0 63px;
 }
 
+.top-txt{
+  width: 800px;
+  margin: 0 auto;
+}
 
-/* FOOTER */
+.bottom-txt{
+  width: 370px;
+  margin: 0 auto;
+  padding-top: 26px;
+  background-image: url('/img/stars.svg');
+  background-position: top;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.big-image{
+  width: 875px;
+  margin: 0 auto;
+}
+
+section div.bottom-txt h3{
+  padding-bottom: 25px;
+}
+
+.wave svg{
+  color: #f6f6f6;
+  display: block;
+}
+
+.wave.reverse svg{
+  transform: rotate(180deg);
+}
+
+
+/* 
+FOOTER
+*/
+
+footer{
+  padding: 50px 0 50px 0;
+  color: white;
+  background-color: #23272a;
+}
+
+footer h2{
+  font-size: 35px;
+}
+
+footer h2, h4{
+  color: #7289da;
+}
+
 .footer-col{
   width: calc(100% / 6);
 }
 
 .footer-col:first-of-type{
   width: calc(100% / 3);
+}
+
+.footer-col:first-of-type a{
+  margin-right: 10px;
+  color: white;
+}
+
+.language{
+  padding: 15px 0 15px 0;
+}
+
+.italian-flag{
+  width: 5%;
+}
+
+.fa-chevron-down{
+  font-size: 10px;
+  vertical-align: text-top;
+}
+
+footer ul{
+  padding: 0;
+  padding-top: 5px;
+}
+
+footer ul li{
+  padding-top: 10px;
+}
+
+.footer-top{
+  padding-bottom: 70px;
+}
+
+.footer-bottom{
+  border-top: 1px solid #424e71;
+  height: 80px;
+  line-height: 80px;
 }
