@@ -63,7 +63,22 @@ nav li a:hover{
 
 /* MAIN */
 
+.description{
+  width: 287px;
+  padding: 55px 63px 0 0;
+}
 
+section div.description h2{
+  font-size: 36px;
+}
+
+section div.description p{
+  padding-top: 20px;
+}
+
+.description.alternative{
+  padding: 55px 0px 0 63px;
+}
 
 
 /* FOOTER */
